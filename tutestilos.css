@@ -1,0 +1,77 @@
+            body {
+                 background-color: rgb(15, 143, 121);
+                 font-family: 'Roboto', sans-serif;
+                 /*cambiar todo el contenido a esta letra body*/
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                 text-align: center;
+
+
+            }
+
+            p {
+                 color: white;
+                 /*font-size:32px;*/
+                 /*cambiar el color de los parrafos*/
+            }
+
+            h2 {
+
+                 color: aqua;
+            }
+
+            div h2 {
+                 color: aqua;
+                 /*camiar de color solos h2 que están dentro de un div*/
+            }
+
+            /*ids son unicos por elemento*/
+            /*las clases son repetibles*/
+            /*con un hasttag se le puede dar el id especifico*/
+            #parrafo-especial {
+                 font-size: 1.5em;
+                 /*aumentar 1.5 tamaño texto*/
+                 font-weight: bold;
+
+            }
+
+            /*modificar varios elementos con clases*/
+            /*para clase, en lugar de hastag se utiliza un punto*/
+            .parrafo {
+                 color: rgb(102, 7, 38);
+                 font-style: italic;
+            }
+
+            a,
+            img {
+                 display: block;
+                 /*esto quiere decir que los links y las imagenes aparecerán con cambio del renglón*/
+
+            }
+
+            a {
+                 margin: 100px 50px;
+                 /*especificar un margen*/
+                 color: black;
+
+            }
+
+            a:hover {
+                 /*cuando el mouse pasa por el link cambia de color al seleccionado*/
+                 color: white;
+
+
+            }
+
+            img {
+                 width: 70%;
+                 /*la imagen siempre sera el 70% del ancho, aun cuando se reduzca o amplie pantalla*/
+                 margin:auto; 
+
+            }
